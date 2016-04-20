@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="page page-generic">
+	<div class="site-wrapper">
+	    {% include header.html %}
+		<div class="background logo">
+			zweck
+		</div>
+		<div class="hero">
+			<p class="page-title">{{page.title}}</p>
+			<p class="post-meta">
+				{% if page.date %}
+					<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+						{{ page.date | date: "%b %-d, %Y" }}
+					</time>
+				{% endif %}
+
+				{% if page.author %}
+					 • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+						<span itemprop="name">{{ page.author }}</span>
+					</span>
+				{% endif %}
+			</p>
+			<img src="{{page.headerImage}}" alt="">
+		</div>
+
+		<div class="page-content">
+	      <div class="wrapper">
+	        {{ content }}
+	      </div>
+	    </div>
+
+	    {% include footer.html %}
+	</div>
+
+	<script src="js/app.js"></script>
+  </body>
+</html>

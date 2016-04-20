@@ -1,0 +1,40 @@
+{
+  "name": "zweck",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -d docs src/** && xdg-open docs/index.html || open docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjhauser/odysseus.git"
+  },
+  "author": "Phil Hauser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjhauser/odysseus/issues"
+  },
+  "homepage": "https://github.com/pjhauser/odysseus#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "trim-newlines": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^3.1.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.1",
+    "gulp-watch": "^4.3.5",
+    "jsdoc": "git+https://github.com/jsdoc3/jsdoc.git",
+    "source-map": "^0.5.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

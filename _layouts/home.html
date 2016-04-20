@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="page page-home">
+	<div class="site-wrapper">
+	    {% include header.html %}
+		<div class="background logo">
+			zweck
+		</div>
+		<div class="hero">
+			<div class="about">I am a Web developer and UX'er based in the North West, UK</div>
+
+			<img src="img/ux-desk.jpg" alt="">
+
+			<div class="home-links-container">
+				<ul class="home-links-wrapper">
+					<li class="home-links">
+						<a href="/about/">
+							<p class="title">About</p>
+							<p class="subtitle">Who am I?</p>
+						</a>
+					</li>
+					<li class="home-links">
+						<a href="/blog/">
+							<p class="title">Blog</p>
+							<p class="subtitle">What interests me</p>
+						</a>
+					</li>
+					<li class="home-links">
+						<a href="/work/">
+							<p class="title">Work</p>
+							<p class="subtitle">What I've been up to</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="page-content">
+	      <div class="wrapper">
+	        {{ content }}
+	      </div>
+	    </div>
+
+	    {% include footer.html %}
+	</div>
+
+	<script src="js/app.js"></script>
+  </body>
+</html>

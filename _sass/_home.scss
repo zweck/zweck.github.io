@@ -1,0 +1,99 @@
+.page-home{
+	.page-content{
+		padding: 0;
+		.wrapper{
+
+		}
+	}
+}
+
+.section-wrapper{
+	padding-bottom: 5rem;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+23,ededed+100 */
+	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top, #fbfbfb 23%, #f7f7f7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #fbfbfb 23%, #f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #fbfbfb 23%, #f7f7f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	.inner{
+		margin: 0 10%;
+		h3{
+			padding: 2rem 0 1rem 0;
+			text-align: center;
+		}
+	}
+}
+
+.home-links-container{
+	padding-bottom: 3rem
+}
+
+ul.home-links-wrapper{
+	list-style-type: none;
+	display: flex;
+	top: 30rem;
+	width: 90%;
+	margin: 0 5%;
+
+	@media screen and (min-width: 1370px) {
+		width: 60%;
+		margin: 0 20%;
+	}
+
+
+	li.home-links{
+		text-align: center;
+		flex: 1;
+		padding: 0.5rem;
+
+		@media screen and (min-width: 400px) {
+			padding: 0rem;
+		}
+
+		p{
+			transition: color 300ms;
+		}
+
+		a{
+			text-decoration: none;
+			color: black;
+
+			&:hover{
+				p.title{
+					color: $primaryHighlight;
+				}
+			}
+
+			p.title {
+				color: black;
+				font-weight: 300;
+				margin-bottom: 0.3rem;
+				font-size: 1.5rem;
+
+				@media screen and (min-width: 400px) {
+					font-size: 1.7rem;
+				}
+
+				@media screen and (min-width: 735px) {
+					font-size: 2.5rem;
+					margin-bottom: 0.8rem;
+				}
+			}
+
+
+			p.subtitle {
+				font-size: 0.7rem;
+
+				@media screen and (min-width: 400px) {
+					font-size: 0.9rem;
+				}
+
+				@media screen and (min-width: 735px) {
+					font-size: 1rem;
+				}
+			}
+
+		}
+	}
+}
