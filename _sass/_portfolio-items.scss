@@ -8,10 +8,11 @@
 		border-radius: 0.2rem;
 		border-bottom: 0.5rem solid $primaryHighlight;
 		min-height: 500px;
-		min-width: 225px;
-		max-width: 260px;
+		width: 250px;
 		position: relative;
 		background: white;
+		float: left;
+
 		&:hover{
 			-webkit-box-shadow: 7px 7px 0px 0px rgb(228, 228, 228);
 			-moz-box-shadow:    7px 7px 0px 0px rgb(228, 228, 228);
@@ -30,9 +31,15 @@
 
 		p{
 			font-size: 1rem;
-			font-color: black;
+		}
+
+		p, h3{
+			font-weight: 300;
+			color: black;
+			margin: 1rem 1rem 0;
 			&:hover{
-				font-color: black;
+				color: black;
+				text-decoration: none;
 			}
 		}
 
