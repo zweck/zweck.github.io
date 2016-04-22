@@ -6,6 +6,7 @@ category: portofolio
 ---
 #Arithmetick
 __TLDR__
+
 I was approached by a client to create a time code calculator and immediately I began researching current solutions to determine the market. After establishing that the current solutions offer a base10 calculator interface but with options to switch between hours, minutes and seconds. I wanted to approach this challenge from an unbiased perspective, and I considered a base10 calculator interface as such a bias. 
 
 I thus proceeded to model and prototype one of the favored interfaces which consisted of dials. However, after initial prototypes I concluded that draggable areas offered a more cohesive User Experience; this has been refined through a two iterations to deliver Arithmetick v1.2.0.
