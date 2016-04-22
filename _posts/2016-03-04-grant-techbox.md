@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2016-03-04 14:57:13 -0000
 title: Grant TechBox
 exerpt: I build a native iOS app in Swift which stores the PDF's in a simple categorised tree view. I also added the ability to search for manuals to enable quick access to desired content.
 img: /img/techbox-hand.jpg
+headerImage: /img/techbox-hand.jpg
 categories: portfolio
 ---
 ### Grant UK iOS App
