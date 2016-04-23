@@ -257,16 +257,20 @@
 	padding-top: 6rem;
 
 	.page-content{
-		padding: 1rem 1rem;
-		max-width: 53.5rem;
+		// padding: 1rem 1rem;
+		max-width: 35.5rem;
 		background: #fff;
 
-		@media screen and (min-width: 900px) {
-			padding: 2rem 2rem;
+		@media screen and (min-width: 847px) {
+			max-width: 53.5rem;
 		}
 
 		@media screen and (min-width: 900px) {
-			padding: 2rem 7rem;
+			// padding: 2rem 2rem;
+		}
+
+		@media screen and (min-width: 900px) {
+			// padding: 2rem 7rem;
 		}
 	}
 

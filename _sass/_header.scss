@@ -41,12 +41,11 @@
 
 	img{
 		margin: 3rem 0 4rem 0;
-   //max-width: 100vw;
-   width:100%;
+		width:100%;
 
 		@media screen and (min-width: 785px) {
 			margin: 6rem 0 7rem 0;
-    width: 63rem;
+			width: 63rem;
 		}
 	}
 
