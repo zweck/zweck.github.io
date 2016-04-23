@@ -3,6 +3,7 @@ tags: []
 layout: post
 title: '11º Dock'
 categories: portfolio
+img: /img/dock.png
 ---
 #11º Dock
 As highlighted by Bill Moggridge, 11° is the most ergonomic angle for typing. This is why the iPads’ SmartCover angles the iPad to exactly 11°. The Official iPhone Dock angles the iPhone to an unusable angle.
