@@ -256,16 +256,20 @@
 .page.page-generic{
 	padding-top: 6rem;
 
-	.page-content{
-		max-width: 19rem;
+	.page-content {
 		background: #fff;
 
-		@media screen and (min-width: 617px) {
-			max-width: 37.5rem;
-		}
+		.inner{
+			margin: 0 auto;
+			max-width: 19rem;
 
-		@media screen and (min-width: 847px) {
-			max-width: 53.5rem;
+			@media screen and (min-width: 617px) {
+				max-width: 37.5rem;
+			}
+
+			@media screen and (min-width: 847px) {
+				max-width: 53.5rem;
+			}
 		}
 
 	}
@@ -273,17 +277,14 @@
 	.blogroll{
 		.section-wrapper{
 			background: #fff;
-			.inner{
-				margin: 0;
-				.portfolio-container{
-					white-space: normal;
-					overflow-y: auto;
-					overflow-x: hidden;
-					-webkit-box-shadow: none;
-					-moz-box-shadow: none;
-					box-shadow: none;
-					text-align: center;
-				}
+			.inner .portfolio-container{
+				white-space: normal;
+				overflow-y: auto;
+				overflow-x: hidden;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+				text-align: center;
 			}
 		}
 	}
