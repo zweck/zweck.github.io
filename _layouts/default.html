@@ -24,7 +24,11 @@
 					</span>
 				{% endif %}
 			</p>
-			<img src="{{page.headerImage}}" alt="">
+
+			{% if page.headerImage %}
+				<img src="{{page.headerImage}}" alt="">
+			{% endif %}
+
 		</div>
 
 		<div class="page-content">
