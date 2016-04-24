@@ -16,7 +16,7 @@ I see other devs on these nice, nimble little Intel core m machines that have no
 
 I thought I could satisfy the bed code requirement with an iPad, raspberry pi and VNC. Alas, either I am too lazy or having all of my various projects over 3 devices (I use a desktop too) is getting a bit much. I love git, but sometimes I just forget to push my branches. 
 
-So, as I said, a very 1st world problem, but a problem nonetheless. 
+So as I said, a very 1st world problem, but a problem nonetheless. 
 
 My current options are:
 
