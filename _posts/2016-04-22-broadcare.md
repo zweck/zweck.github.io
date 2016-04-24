@@ -2,7 +2,7 @@
 layout: post
 title: BroadCare
 img: /img/bcweb.png
-categories: portfolio
+categories: ['portfolio', 'home']
 exerpt: This is a huge project which involved taking an existing, 15 year old product, and re-writing it from the ground up in JavaScript for both the front end and the back end.
 ---
 

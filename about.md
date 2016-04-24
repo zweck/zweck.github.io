@@ -1,16 +1,9 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
-headerImage: http://placehold.it/350x150
+headerImage: /img/desk.jpg
 ---
 
- is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I am a UX Architect and Web developer based in the North West. I work out of my studio in the Cheshire countryside.
+I am passionate about a well designed and thought-out system, and have for the last 3 years been architecting systems.

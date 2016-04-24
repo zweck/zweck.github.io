@@ -3,11 +3,11 @@ layout: post
 title: Arithmetick
 img: /img/arithemtick.png
 headerImage: /img/arithemtick2.jpg
-category: portfolio
+categories: portfolio
 exerpt: I wanted to approach this challenge from an unbiased perspective, and I considered a base10 calculator interface as such a bias.
 ---
 
-I was approached by a client who wanted a time calculator for camera men, predominantly for the BBC. He wanted an iphone app that could easily calculate the time. 
+I was approached by a client who wanted a time calculator for camera men, predominantly for the BBC. He wanted an iphone app that could easily calculate the time.
 
 I began researching current solutions to determine the market. After establishing that the current solutions offer a base10 calculator interface but with options to switch between hours, minutes and seconds. I wanted to approach this challenge from an unbiased perspective, and I considered a base10 calculator interface as such a bias.
 
