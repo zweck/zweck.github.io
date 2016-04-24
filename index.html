@@ -2,36 +2,22 @@
 layout: home
 ---
 
-<section class="section-wrapper">
-	<div class="inner">
-		<div class="portfolio-container">
-			<a class="post-link portfolio-item" href="">
-				<img src="" />
-				Some title
-			</a>
-			<div class="item-description">
-				<h2>Work example title</h2>
-				<p>
-					lorum foo barium
-				</p>
+<div class="blogroll">
+
+	<section class="section-wrapper">
+		<div class="inner">
+			<div class="portfolio-container">
+				{% for post in site.posts %}
+					{% if post.categories contains 'home'%}
+						<a class="post-link portfolio-item" href="{{ post.url | prepend: site.baseurl }}">
+							<span class="card-image" style="background-image: url({{ post.img | prepend: site.baseurl }});"></span>
+							<h3>{{ post.title }}</h3>
+							<p>{{ post.exerpt }}</p>
+						</a>
+					{% endif %}
+				{% endfor %}
 			</div>
 		</div>
-	</div>
-</section>
-<hr />
-<section class="section-wrapper">
-	<div class="inner">
-		<div class="portfolio-container">
-			<div class="item-description">
-				<h2>Work example title</h2>
-				<p>
-					lorum foo barium
-				</p>
-			</div>
-			<a class="post-link portfolio-item" href="">
-				<img src="" />
-				Some title
-			</a>
-		</div>
-	</div>
-</section>
+	</section>
+
+</div>
