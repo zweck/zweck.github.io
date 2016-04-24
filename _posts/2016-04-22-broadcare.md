@@ -3,12 +3,12 @@ layout: post
 title: BroadCare
 img: /img/bcweb.png
 categories: ['portfolio', 'home']
-exerpt: This is a huge project which involved taking an existing, 15 year old product, and re-writing it from the ground up in JavaScript for both the front end and the back end.
+exerpt: This is a huge project which involved taking an existing 15 year old product and re-writing it from the ground up in JavaScript for both the frontend and the backend.
 ---
 
-The BroadCare system is specifically designed for organisations managing NHS-funded Continuing Care; specifically it makes data collection, storage and retrieval quick and simple, even for users with minimal IT experience.
+The BroadCare system is specifically designed for organisations managing NHS-funded Continuing Care; it makes data collection, storage and retrieval quick and simple, even for users with minimal IT experience.
 
-This is a huge project which involved taking an existing, 15 year old product, and re-writing it from the ground up in JavaScript for both the front end and the back end.
+This is a huge project which involved taking an existing 15 year old product and re-writing it from the ground up in JavaScript for both the frontend and the backend.
 
 The original stack included a VB.Net, MS Access frontend, with an MSSQL db on the backend. Clients would connect to this service using remote desktop software. The desired outcome was to allow users to access the same data over the web, but with extensibility in mind.
 
