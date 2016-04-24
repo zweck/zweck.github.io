@@ -6,7 +6,6 @@ categories: portfolio
 exerpt: This is a huge project which involved taking an existing, 15 year old product, and re-writing it from the ground up in JavaScript for both the front end and the back end.
 ---
 
-### BroadCare
 The BroadCare system is specifically designed for organisations managing NHS-funded Continuing Care; specifically it makes data collection, storage and retrieval quick and simple, even for users with minimal IT experience.
 
 This is a huge project which involved taking an existing, 15 year old product, and re-writing it from the ground up in JavaScript for both the front end and the back end.
