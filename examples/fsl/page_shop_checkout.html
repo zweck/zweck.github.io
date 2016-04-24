@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if IE 8]><html class="lt-ie9">
+<![endif]-->
+<!--[if IE 9]><html class="lt-ie10">
+<![endif]-->
+<!-- [if gt IE 9] <!-->
+<html lang="en">
+  <!-- <![endif]-->
+  <head>
+    <title>Checkout</title>
+    <meta charset="utf-8">
+    <meta name="description">
+    <meta name="keywords">
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/print-styles.css" type="text/css" media="print"><META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <!--[if lt IE 9]>
+    <script src="js/ie/eventlistener.js"></script>
+    <script src="js/ie/selectivizr-min.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/html5shiv.js"></script>
+    <![endif]--><!--[if !IE]>--><script>if (/*@cc_on!@*/false) { document.documentElement.className+=' ie10'; }</script><!-- <![endif]-->
+  </head>
+  <body data-page="checkout" class="page-checkout">
+    <div class="overflow-wrapper">
+      <div class="wrapper">
+        <header class="main-header"><a href="page_home.html" class="logo">FreeStyle Libre</a>
+          <div class="nav-toggle-wrapper"><a href="#" class="menu-toggle menu-toggle--open icon-navigation">navigation</a>
+            <div class="nav-toggle-wrapper-title">Checkout</div>
+          </div>
+          <div class="nav-all">
+            <nav class="main-nav">
+              <ul class="main-nav-items">
+                <li class="nav-home"><a href="page_home.html">Home</a>
+                </li>
+                <li><a href="page_shop_listing.html">Freestyle Libre Range</a>
+                </li>
+                <li><a href="page_hear_from_an_expert.html">Hear From An Expert</a>
+                </li>
+                <li><a href="page_how_does_it_work.html">How It Works</a>
+                </li>
+                <li><a href="page_contact.html">Contact Us</a>
+                </li>
+                <li class="basket-link"><a href="page_shop_basket.html">My basket <span>2</span></a>
+                </li>
+                <li class="buy-now"><a href="page_buy_now.html">Buy Now</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="nav-secondary">
+              <ul class="nav-secondary-items">
+                <li class="nav-secondary-item"><a href="page_account.html">My Account</a>
+                  <ul id="account">
+                    <li class="nav-secondary-item"><a href="page_account.html">My Account</a></li>
+                    <li class="nav-secondary-item"><a href="page_account_addresses.html">Address Book</a></li>
+                    <li class="nav-secondary-item"><a href="page_account_orders_history.html">My Orders</a></li>
+                    <li class="nav-secondary-item"><a href="page_account_orders_return.html">My Returns</a></li>
+                    <li class="nav-secondary-item"><a href="page_account_warranty_registration.html">Warranty Registration</a></li>
+                  </ul>
+                </li>
+                <li><a href="page_login.html">Sign in / Register</a>
+                </li>
+                <li><a href="page_support.html">Help</a>
+                </li>
+                <li><a href="#LiveChat">Live Chat</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="main-banner">
+        </div>
+        <div class="main-content">
+          <h1 class="page-title">Checkout</h1>
+          <form method="post" novalidate class="checkout-forms">
+            <div class="sectioned-content">
+              <nav class="sectioned-content-nav">
+                <ul>
+                  <li><a href="#shipping">Shipping Information</a></li>
+                  <li><a href="#shipping_method">Shipping Method</a></li>
+                  <li><a href="#details">Your <br/> Details</a></li>
+                  <li><a href="#payment">Payment Information</a></li>
+                  <li><a href="#review">Order Review</a></li>
+                </ul>
+              </nav>
+              <section id="shipping" class="sectioned-content-section">
+                <h1 class="sectioned-content-section-title">Shipping Information</h1>
+                <div class="sectioned-content-section-content">
+                  <div class="shipping-information">
+                    <fieldset>
+                      <legend>Shipping Information</legend>
+                      <p class="form-instructions">Select a shipping address from your address book or enter a new address.</p>
+                      <div class="required-field">required fields</div>
+                      <ul>
+                        <li>
+                          <div class="field field--dropdown">
+                            <label for="address" class="required">Address</label>
+                            <div class="select-wrapper">
+                              <select id="address" name="address" type="text" required="required">
+                                <option value="address_new">New Address</option>
+                                <option value="address_1">This is address 1</option>
+                                <option value="address_2">This is address 2</option>
+                                <option value="address_3">And this is address 3</option>
+                              </select>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="first_name" class="required">First Name</label>
+                            <input id="first_name" name="first_name" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="last_name" class="required">Surname</label>
+                            <input id="last_name" name="last_name" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="company" class="required">Company</label>
+                            <input id="company" name="company" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--address">
+                            <label class="required">Address</label>
+                            <div class="field-group-fields">
+                              <div class="field">
+                                <input id="address_first" name="address_first" type="text" maxlength="50" placeholder="Address line 1" required="required"/>
+                              </div>
+                              <div class="field">
+                                <input id="address_second" name="address_second" type="text" maxlength="50" placeholder="Address line 2"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_city" class="required">City</label>
+                            <input id="address_city" name="address_city" type="text" maxlength="50" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_state" class="required">State / Province</label>
+                            <input id="address_state" name="address_state" type="text" maxlength="50" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="post_code" class="required">Postcode</label>
+                            <input id="post_code" name="post_code" type="text" maxlength="10" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_country" class="required">Country</label>
+                            <input id="address_country" name="address_country" type="text" maxlength="50" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--telephone">
+                            <label for="TEL" class="required">Telephone</label>
+                            <div class="field-group-fields">
+                              <div class="field field-telephone--prefix">
+                                <input id="TEL-prefix" name="TEL-prefix" type="text" placeholder="Prefix" required="required"/>
+                              </div>
+                              <div class="field field-telephone--areacode">
+                                <input id="TEL-areacode" name="TEL-areacode" type="text" placeholder="Area code" required="required"/>
+                              </div>
+                              <div class="field field-telephone--number">
+                                <input id="TEL" name="TEL" type="text" placeholder="Please enter your number" required="required"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--telephone">
+                            <label for="MOBILE">Mobile</label>
+                            <div class="field-group-fields">
+                              <div class="field field-telephone--areacode field-telephone--areacode--no-prefix">
+                                <input id="MOBILE-areacode" name="MOBILE-areacode" type="text" placeholder="Country code"/>
+                              </div>
+                              <div class="field field-telephone--number field-telephone--number-long">
+                                <input id="MOBILE" name="MOBILE" type="text" placeholder="Please enter your number"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--textbox">
+                            <label for="additional_delivery_info">Additional delivery information</label>
+                            <textarea id="additional_delivery_info" name="additional_delivery_info" type="textarea" placeholder="E.g. press the top buzzer"></textarea>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--checkbox">
+                            <input id="saveaddress" name="saveaddress" type="checkbox"/>
+                            <label for="saveaddress">Save in address book</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--checkbox">
+                            <input id="use_billing" name="use_billing" type="checkbox"/>
+                            <label for="use_billing">Use billing address</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <div class="shipping-information-actions">
+                      <button class="button checkout-forms-continue">Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="shipping_method" class="sectioned-content-section">
+                <h1 class="sectioned-content-section-title">Shipping Method</h1>
+                <div class="sectioned-content-section-content">
+                  <div class="shipping-method">
+                    <fieldset>
+                      <legend>Shipping Method</legend>
+                      <ul>
+                        <li>
+                          <h3>Flat Rate</h3>
+                          <p>Fixed <strong>£8.36 </strong>(Incl. Tax
+                            <stong>£1.20</stong>)
+                          </p>
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <div class="shipping-method-actions">
+                      <button class="button checkout-forms-continue">Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="details" class="sectioned-content-section">
+                <h1 class="sectioned-content-section-title">Your Details</h1>
+                <div class="sectioned-content-section-content">
+                  <div class="billing-information">
+                    <fieldset>
+                      <legend>Your Details</legend>
+                      <p class="form-instructions">Select a shipping address from your address book or enter a new address.</p>
+                      <div class="required-field">required fields</div>
+                      <ul>
+                        <li>
+                          <div class="field field--dropdown">
+                            <label for="new_address">Address</label>
+                            <div class="select-wrapper">
+                              <select id="new_address" name="new_address" type="text">
+                                <option value="address_new">New Address</option>
+                                <option value="address_1">This is address 1</option>
+                                <option value="address_2">This is address 2</option>
+                                <option value="address_3">And this is address 3</option>
+                              </select>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="first_name" class="required">First Name</label>
+                            <input id="first_name" name="first_name" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="last_name" class="required">Last Name</label>
+                            <input id="last_name" name="last_name" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="company" class="required">Company tax no</label>
+                            <input id="company" name="company" type="text" maxlength="20" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="company">Company</label>
+                            <input id="company" name="company" type="text" maxlength="20"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--address">
+                            <label class="required">Address</label>
+                            <div class="field-group-fields">
+                              <div class="field">
+                                <input id="address_first" name="address_first" type="text" maxlength="50" placeholder="Address line 1" required="required"/>
+                              </div>
+                              <div class="field">
+                                <input id="address_second" name="address_second" type="text" maxlength="50" placeholder="Address line 2"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_city" class="required">City</label>
+                            <input id="address_city" name="address_city" type="text" maxlength="50" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_state" class="required">State / Province</label>
+                            <input id="address_state" name="address_state" type="text" maxlength="50" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="post_code" class="required">Postcode</label>
+                            <input id="post_code" name="post_code" type="text" maxlength="10" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="address_country">Country</label>
+                            <input id="address_country" name="address_country" type="text" maxlength="50"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--telephone">
+                            <label for="TEL" class="required">Telephone</label>
+                            <div class="field-group-fields">
+                              <div class="field field-telephone--prefix">
+                                <input id="TEL-prefix" name="TEL-prefix" type="text" placeholder="Prefix" required="required"/>
+                              </div>
+                              <div class="field field-telephone--areacode">
+                                <input id="TEL-areacode" name="TEL-areacode" type="text" placeholder="Area code" required="required"/>
+                              </div>
+                              <div class="field field-telephone--number">
+                                <input id="TEL" name="TEL" type="text" placeholder="Please enter your number" required="required"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field-group field-group--telephone">
+                            <label for="MOBILE">Mobile</label>
+                            <div class="field-group-fields">
+                              <div class="field field-telephone--areacode field-telephone--areacode--no-prefix">
+                                <input id="MOBILE-areacode" name="MOBILE-areacode" type="text" placeholder="Country code"/>
+                              </div>
+                              <div class="field field-telephone--number field-telephone--number-long">
+                                <input id="MOBILE" name="MOBILE" type="text" placeholder="Please enter your number"/>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--checkbox">
+                            <input id="diabetic" name="diabetic" type="checkbox"/>
+                            <label for="diabetic">I am a diabetic</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--checkbox">
+                            <input id="saveaddress" name="saveaddress" type="checkbox"/>
+                            <label for="saveaddress">Save in address book</label>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--radio">
+                            <input id="shipto_this" name="shipto" type="radio" value="this"/>
+                            <label for="shipto_this">Ship to this address</label>
+                          </div>
+                          <div class="field field--radio">
+                            <input id="shipto_another" name="shipto" type="radio" value="another"/>
+                            <label for="shipto_another">Ship to another address</label>
+                          </div>
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <div class="billing-information-actions">
+                      <button class="button checkout-forms-continue">Continue</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="payment" class="sectioned-content-section">
+                <h1 class="sectioned-content-section-title">Payment Information</h1>
+                <div class="sectioned-content-section-content">
+                  <div class="payment-information">
+                    <fieldset>
+                      <legend>Payment Information</legend>
+                      <div class="required-field">required fields</div>
+                      <ul>
+                        <li class="payment-method">
+                          <div class="field field--radio">
+                            <input id="payment_credit_card" name="payment" type="radio" value="credit_card"/>
+                            <label for="payment_credit_card">Credit Card</label><a class="more-info selected">i
+                              <p>This option is available because</p></a>
+                          </div>
+                          <div class="field field--radio">
+                            <input id="payment_check" name="payment" type="radio" value="check"/>
+                            <label for="payment_check">Check / Money Order</label><a class="more-info selected">i
+                              <p>This option is available because</p></a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="credit_card_name" class="required">Name on Card</label>
+                            <input id="credit_card_name" name="credit_card_name" type="text" required="required"/>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field field--dropdown">
+                            <label for="credit_card_type" class="required">Credit Card Type</label>
+                            <div class="select-wrapper">
+                              <select id="credit_card_type" name="credit_card_type" type="text" required="required">
+                                <option value="american_express">American Express</option>
+                                <option value="visa">Visa</option>
+                                <option value="mastercard">MasterCard</option>
+                                <option value="discover">Discover</option>
+                              </select>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="credit_card_number" class="required">Credit Card Number</label>
+                            <input id="credit_card_number" name="credit_card_number" type="text" maxlength="16" required="required"/>
+                          </div>
+                        </li>
+                        <li class="expiration">
+                          <div class="field-group">
+                            <label class="required">Expiration Date</label>
+                            <div class="field-group-fields">
+                              <div class="field field--dropdown">
+                                <div class="select-wrapper">
+                                  <select id="credit_card_expiration_month" name="credit_card_expiration_month" type="text" required="required">
+                                    <option value="january">January</option>
+                                    <option value="february">February</option>
+                                    <option value="march">March</option>
+                                    <option value="april">April</option>
+                                    <option value="may">May</option>
+                                    <option value="june">June</option>
+                                    <option value="july">July</option>
+                                    <option value="august">August</option>
+                                    <option value="september">September</option>
+                                    <option value="october">October</option>
+                                    <option value="november">November</option>
+                                    <option value="december">December</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="field field--dropdown">
+                                <div class="select-wrapper">
+                                  <select id="credit_card_expiration_year" name="credit_card_expiration_year" type="text">
+                                    <option value="2014">2014</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="field">
+                            <label for="credit_card_verification" class="required">Card Verification Number</label>
+                            <input id="credit_card_verification" name="credit_card_verification" type="text" class="verification" required="required"/><a href="#" class="verfication-info">What is this?</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <div class="payment-information-actions">
+                      <div class="payment-information-actions-continue">
+                        <button class="button checkout-forms-continue">Continue</button>
+                      </div>
+                      <div class="payment-information-actions-back"><a href="#" class="button back-button checkout-forms-back"><span>Back</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section id="review" class="sectioned-content-section">
+                <h1 class="sectioned-content-section-title">Order Review</h1>
+                <div class="sectioned-content-section-content">
+                  <div class="order-review">
+                    <fieldset>
+                      <legend>Order Review</legend>
+                      <table class="order-reivew-items">
+                        <thead>
+                          <tr>
+                            <th>Product Name</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Subtotal</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Starter Pack</td>
+                            <td>£12.00</td>
+                            <td>1</td>
+                            <td>£12.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="order-reivew-items order-reivew-items--compact">
+                        <tbody>
+                          <tr>
+                            <th>Product Name</th>
+                            <td>Starter Pack</td>
+                          </tr>
+                          <tr>
+                            <th>Price</th>
+                            <td>£12.00</td>
+                          </tr>
+                          <tr>
+                            <th>Qty</th>
+                            <td>1</td>
+                          </tr>
+                          <tr>
+                            <th>Subtotal</th>
+                            <td>£12.00</td>
+                          </tr>
+                          <tr>
+                            <th>Shipping & handling</th>
+                            <td>£00.00</td>
+                          </tr>
+                          <tr>
+                            <th>Tax</th>
+                            <td>£00.00</td>
+                          </tr>
+                          <tr>
+                            <th>Grand total</th>
+                            <td>£00.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="order-review-paymentSummary">
+                        <tbody>
+                          <tr>
+                            <td> </td>
+                            <td colspan="2">Sub-total</td>
+                            <td>£00.00</td>
+                          </tr>
+                          <tr>
+                            <td> </td>
+                            <td colspan="2">Shipping & handling</td>
+                            <td>£00.00</td>
+                          </tr>
+                          <tr>
+                            <td> </td>
+                            <td colspan="2">Tax</td>
+                            <td>£00.00</td>
+                          </tr>
+                          <tr>
+                            <td> </td>
+                            <td colspan="2">Grand total</td>
+                            <td>£00.00</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </fieldset>
+                    <div class="order-review-actions">
+                      <button class="button checkout-forms-submit" type="submit">Place Order</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </form>
+        </div>
+        <div class="secondary-content">
+        </div>
+      </div>
+    </div>
+    <div class="site-footer">
+      <ul class="site-footer-nav">
+        <li><a href="#">Cookie Policy</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="page_about_us.html">About Us</a></li>
+        <li><a href="page_delivery.html">Delivery Information</a></li>
+        <li><a href="page_returns_info.html">Returns Information</a></li>
+        <li><a href="page_site_map.html">Sitemap</a></li>
+        <li><a href="page_software_download.html">Software Download</a></li>
+      </ul>
+      <div class="site-footer-info">
+        <p>FreeStyle and related brand marks are trademarks of Abbott Diabetes Care Inc. in various jurisdictions. Other trademarks are the property of their respective owners. </p>
+        <p>© 2014 Abbott Laboratories Limited. All rights reserved. Registered Number: 329102 England. </p>
+        <p>Registered Office: Abbott House, Vanwall Business Park, Vanwall Road, Maidenhead, Berkshire, SL6 4XE</p>
+      </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/elementQuery.js"></script>
+    <script data-main="js/main" src="js/vendor/require.js"></script>
+  </body>
+</html>

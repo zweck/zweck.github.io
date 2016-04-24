@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 	connect = require('gulp-connect'),
 	exec = require('child_process').exec;
 
-gulp.task('default', ['jekyll', 'js', 'connect', 'watch']);
+gulp.task('default', ['jekyll', 'js', 'connect', 'move', 'watch']);
 
 gulp.task('jekyll', function (){
 	exec('jekyll build', function(err, stdout, stderr) {
@@ -37,6 +37,11 @@ gulp.task('js', function(){
 		.pipe(buffer())
 		.pipe(gulp.dest('./_site/js'))
 		.pipe(connect.reload());
+});
+
+gulp.task('move', function(){
+	gulp.src('/examples')
+	.pipe(gulp.dest('_site/examples'));
 });
 
 gulp.task('watch', function () {
