@@ -25,3 +25,5 @@ My current options are:
 - get a surface style machine with a real processor but with fans in the lid
 
 Stay tuned, a decision is pending...
+
+So, I bought the Surface Book. Installed Ubuntu on it. And hated every minute of it. The machine looks amazing but ubuntu is really rough on it and Windows was even worse. So I've defaulted to the new MacBook, and after 3 months I think it's the best mac yet. Beats my old MacBook Air as the most portable, performant balance.
