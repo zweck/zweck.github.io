@@ -5,15 +5,13 @@ layout: default
 <div class="blogroll">
 
 	{% if page.isBlog %}
-	<section class="section-wrapper">
+	<section class="section-wrapper is-blog">
 		<div class="inner">
 			<div class="portfolio-container">
 				{% for post in site.posts %}
 					{% if post.categories contains 'blog'%}
 						<a class="post-link portfolio-item" href="{{ post.url | prepend: site.baseurl }}">
-							<span class="card-image" style="background-image: url({{ post.img | prepend: site.baseurl }});"></span>
 							<h3>{{ post.title }}</h3>
-							<p>{{ post.exerpt }}</p>
 						</a>
 					{% endif %}
 				{% endfor %}
