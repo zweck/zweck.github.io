@@ -1,19 +1,21 @@
 
 .portfolio-container{
 
+        display: flex;
+        align-items: stretch;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
 	.portfolio-item{
-		display: inline-block;
+                width: 240px;
 		border: 1px solid $primaryHighlight;
 		margin: 1rem;
 		border-radius: 0.2rem;
 		border-bottom: 0.5rem solid $primaryHighlight;
-		min-height: 500px;
-		width: 247px;
 		position: relative;
 		background: white;
-		float: left;
 		overflow: hidden;
-
+                 
 		&:hover{
 			-webkit-box-shadow: 7px 7px 0px 0px rgb(228, 228, 228);
 			-moz-box-shadow:    7px 7px 0px 0px rgb(228, 228, 228);
@@ -39,6 +41,9 @@
 			color: black;
 			margin: 1rem 1rem 0;
 		}
+                p{
+                    margin: 1rem;
+                }
 		&:hover, &:active{
 			color: black;
 			text-decoration: none;
