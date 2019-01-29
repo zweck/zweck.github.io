@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is the blog and website for zweck ltd.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zweck.co" # the base hostname & protocol for your site
-twitter_username: pjhauser1
+twitter_username: zweck_co
 github_username:  zweck
 
 # Build settings
